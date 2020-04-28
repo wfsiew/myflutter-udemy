@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Future.delayed(
       Duration(seconds: 5),
       () {
-        Navigator.push(
+        Navigator.pushReplacement(
           context, 
           MaterialPageRoute(
             builder: (context) => Home()
